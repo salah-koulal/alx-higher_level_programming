@@ -1,5 +1,5 @@
--- number of records with the score and name in the table
-SELECT score, name COUNT(*)
+-- Listing all records of the second table of the data base
+SELECT score, name
 FROM second_table
-WHERE name IS NOT NULL
-ORDER BY score DESC;
+WHERE name != ""
+ORDER BY score DESC
